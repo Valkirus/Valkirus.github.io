@@ -23,12 +23,6 @@ class Contact extends Component {
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
-              <div className="contact-heading-img-div">
-                <img
-                  src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
-                />
-              </div>
               <div className="contact-heading-text-div">
                 <h1
                   className="contact-heading-text"
@@ -51,6 +45,12 @@ class Contact extends Component {
                     theme={theme}
                   />
                 </div>
+              </div>
+              <div className="contact-heading-img-div">
+                <img
+                  src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
+                  alt=""
+                />
               </div>
             </div>
           </Fade>

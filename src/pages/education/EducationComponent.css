@@ -2,6 +2,22 @@
   width: 100%;
 }
 
+.slide {
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Centers the images horizontally */
+  gap: 10px; /* Adds spacing between the images */
+  flex-wrap: wrap; /* Ensures the images wrap to the next line if there's not enough space */
+}
+
+.slide img {
+  max-width: 500px; /* Prevents the image from exceeding the parent container's width */
+  max-height: 500px; /* Adjust the maximum height to suit your needs */
+  width: auto; /* Maintains aspect ratio */
+  height: auto; /* Maintains aspect ratio */
+  margin: auto;
+  display: block;
+}
+
 .basic-education {
   margin-left: 5%;
   margin-right: 5%;

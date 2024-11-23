@@ -4,7 +4,6 @@ import {
   greeting,
   seo,
   socialMediaLinks,
-  experience,
   contactPageData,
   certifications,
 } from "../../portfolio.js";
@@ -23,9 +22,6 @@ function SeoHeader() {
   let mail = socialMediaLinks
     .find((media) => media.link.startsWith("mailto"))
     .link.substring("mailto:".length);
-  let job = experience.sections
-    ?.find((section) => section.work)
-    ?.experiences?.at(0);
 
   let credentials = [];
   certifications.certifications.forEach((certification) => {
@@ -45,10 +41,8 @@ function SeoHeader() {
     email: mail,
     telephone: contactPageData.phoneSection?.subtitle,
     sameAs: sameAs,
-    jobTitle: job.title,
     worksFor: {
       "@type": "Organization",
-      name: job.company,
     },
     address: {
       "@type": "PostalAddress",

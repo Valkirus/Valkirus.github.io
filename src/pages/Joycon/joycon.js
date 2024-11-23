@@ -51,7 +51,7 @@ class joycon extends Component {
                   RC Transmitter & Receiver
                 </h1>
                 <a
-                  href={"https://github.com/Valkirus"}
+                  href={"https://github.com/Valkirus/RC-Transmitter"}
                   className={`icon-button`}
                   target="_blank"
                   rel="noopener noreferrer"

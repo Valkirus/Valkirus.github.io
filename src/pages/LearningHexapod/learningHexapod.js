@@ -51,7 +51,7 @@ class learningHexapod extends Component {
                   Hexapod for exploration
                 </h1>
                 <a
-                  href={"https://github.com/Valkirus"}
+                  href={"https://github.com/Valkirus/RC-Receiver"}
                   className={`icon-button`}
                   target="_blank"
                   rel="noopener noreferrer"
