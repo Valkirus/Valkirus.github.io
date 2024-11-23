@@ -1,0 +1,81 @@
+.logo_wrapper {
+  height: 120vh;
+  width: "100%";
+  justify-content: center;
+}
+
+.project-image-div > * {
+  max-width: 100vh;
+  height: auto;
+  position: static;
+}
+
+.stuff {
+  max-width: 500px; /* Prevents the image from exceeding the parent container's width */
+  max-height: 500px;
+  width: auto; /* Maintains aspect ratio */
+  height: auto; /* Maintains aspect ratio */
+  margin: auto;
+  display: block;
+}
+
+.slide img {
+  max-width: 500px; /* Prevents the image from exceeding the parent container's width */
+  max-height: 500px; /* Adjust the maximum height to suit your needs */
+  width: auto; /* Maintains aspect ratio */
+  height: auto; /* Maintains aspect ratio */
+  margin: auto;
+  display: block;
+}
+
+.screen {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen {
+  /* background-color: #55198b; */
+  overflow: hidden;
+  border-radius: 100%;
+  animation: grow 5.5s forwards;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+  10% {
+    transform: scale(1);
+    border-radius: 0%;
+    height: 100%;
+    width: 100%;
+  }
+  90% {
+    transform: scale(1);
+    border-radius: 0%;
+    height: 100%;
+    width: 100%;
+  }
+  100% {
+    transform: scale(0);
+    transform-origin: 50% 50%;
+    border-radius: 100%;
+  }
+}
+
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

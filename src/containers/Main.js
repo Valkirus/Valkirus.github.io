@@ -3,7 +3,11 @@ import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
-import Experience from "../pages/experience/Experience";
+//projects
+import Joycon from "../pages/Joycon/joycon";
+import Hexapod from "../pages/Hexapod/Hexapod";
+import LearningHexapod from "../pages/LearningHexapod/learningHexapod";
+
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
@@ -49,6 +53,18 @@ export default class Main extends Component {
           <Route
             path="/projects"
             render={(props) => <Projects {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/hexapod"
+            render={(props) => <Hexapod {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/learningHexapod"
+            render={(props) => <LearningHexapod {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/joycon"
+            render={(props) => <Joycon {...props} theme={this.props.theme} />}
           />
           <Route
             path="*"

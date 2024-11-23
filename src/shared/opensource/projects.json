@@ -3,68 +3,29 @@
     {
       "logo_path": "hexapod.png",
       "name": "Hexapod for Exploration",
+      "url": "/hexapod",
       "createdAt": "03-12-2024",
       "description": "A hexapod robot, that can map terrain using SLAM.",
       "isFork": false,
-      "color_code": "#dbfffb",
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
-        }
-      ]
+      "color_code": "#dbfffb"
     },
     {
       "logo_path": "JoyCon.png",
       "name": "RC Receiver & Transmitter",
       "createdAt": "20-10-2024",
+      "url": "/joycon",
       "description": "An RC Receiver inspired by How To Mechatronic's. Built with more buttons and functionality",
       "isFork": false,
-      "color_code": "#d3f7c6",
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
-        }
-      ]
+      "color_code": "#d3f7c6"
     },
     {
       "logo_path": "LearningHexapod.png",
       "name": "",
+      "url": "/learninghexapod",
       "createdAt": "01-11-2024",
       "description": "Learning Hexapod. Essentially it's a toy to write and experiment with gait generation and learn",
       "isFork": false,
-      "color_code": "#f7d2ea",
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
-        }
-      ]
+      "color_code": "#f7d2ea"
     }
   ]
 }
