@@ -66,7 +66,7 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Arduino and C++",
+      title: "Arduino & C++",
       fileName: "arduino.png",
       skills: [
         "Experienced with using Arduinos and writing c++ code",
@@ -79,12 +79,40 @@ const skills = {
     },
 
     {
-      title: "Pico and MicroROS",
+      title: "Pico & MicroROS",
       fileName: "pico2.png",
       skills: [
         "Wrote code with the microROS framework to be able to use it to communicate with a Raspberry Pi 4B.",
         "Little bit of experience with pico-sdk and can find my way around with the documentation open",
         
+      ],
+      softwareSkills: [
+
+      ],
+    },
+
+    {
+      title: "Raspberry Pi & ROS 2",
+      fileName: "raspberrypi4b.png",
+      skills: [
+        "Made a robot hexapod, using the Raspberry Pi 4B",
+        "Worked on a digital twin within Gazebo",
+        "LiDar Navigation using SLAM and Gazebo",
+        "Modified the Chipo Hexapod to be ran on ROS 2",
+        
+      ],
+      softwareSkills: [
+
+      ],
+    },
+
+    {
+      title: "Schematics & PCBs",
+      fileName: "PCB.png",
+      skills: [
+        "Designed a PCB based on How To Mechatronic's RC Transmitter",
+        "Fully tested and accurate within KiCAD",
+        "Drawn a schematic to easily make PCBs"
       ],
       softwareSkills: [
 
