@@ -36,11 +36,19 @@ class learningHexapod extends Component {
             <div className="projects-heading-div">
               <div className="projects-heading-text-div">
               <div className="logo">
-                <Carousel useKeyboardArrows={true}>
-                    {images.map((URL, index) => (
-                    <div className="slide">
-                      <img alt="sample_file" src={URL} key={index} />
-                    </div>
+              <Carousel
+                showArrows={true}
+                autoPlay={true}
+                infiniteLoop={true}
+                showThumbs={false}
+                interval={3000}
+                dynamicHeight={true}
+                useKeyboardArrows={true}
+                >
+                  {images.map((src, index) => (
+                  <div key={index}>
+                    <img src={src} alt={`Slide ${index}`} />
+                  </div>
                   ))}
                 </Carousel>
                 </div>

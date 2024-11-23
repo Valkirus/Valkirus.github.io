@@ -24,6 +24,8 @@ class Home extends Component {
           
           <TopButton theme={this.props.theme} />
         </div>
+
+        
       </div>
     );
   }

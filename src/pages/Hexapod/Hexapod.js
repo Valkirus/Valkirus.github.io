@@ -36,15 +36,21 @@ class Hexapod extends Component {
         <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-text-div">
-              <div className="logo">
-                <Carousel useKeyboardArrows={true}>
-                    {images.map((URL, index) => (
-                    <div className="slide">
-                      <img alt="sample_file" src={URL} key={index} />
-                    </div>
+              <Carousel
+                showArrows={true}
+                autoPlay={true}
+                infiniteLoop={true}
+                showThumbs={false}
+                interval={3000}
+                dynamicHeight={true}
+                useKeyboardArrows={true}
+                >
+                  {images.map((src, index) => (
+                  <div key={index}>
+                    <img src={src} alt={`Slide ${index}`} />
+                  </div>
                   ))}
                 </Carousel>
-                </div>
                 <h1
                   className="projects-heading-text"
                   style={{ color: theme.text }}
@@ -69,7 +75,9 @@ class Hexapod extends Component {
                This project ideally combines all of those skills (CAD Design, Electronics, Circuit Design, Software) into one nice project. <br></br> The fun part about it was the software bit, I spent a lot of time
                fine tuning the IK algorithm and gait generation to have a smooth walk cycle.
                 </p>
-                <video controls src={(Video)} />
+                <div className="video-container">
+                <video controls src={Video} />
+                </div>
               </div>
             </div>
           </Fade>
