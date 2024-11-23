@@ -12,10 +12,6 @@ class Home extends Component {
       zIndex: 1, // Ensure content is above the background
     };
 
-    const skillsStyle = {
-      marginTop: "800px", // Add space above the Skills section
-    };
-
     return (
       <div>
         

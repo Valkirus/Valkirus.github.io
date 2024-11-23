@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Jirakorn Sukmee",
     type: "website",
-    //url: "http://ashutoshhathidara.com/",
+    url: "https://valkirus.github.io/",
   },
 };
 
@@ -153,6 +153,63 @@ const certifications = {
       logo_path: "ms1067-1424.png",
       alt_name: "Mathematics project",
       color_code: "#ac68b3",
+    },
+
+    {
+      title: "Silver Medal",
+      subtitle: "Academic Project",
+      logo_path: "YRU.png",
+      alt_name: "YRU Project",
+      color_code: "#ffcff2",
+    },
+    {
+      title: "Second Place",
+      subtitle: "School Innovation Project",
+      logo_path: "YW_second.png",
+      alt_name: "YRU Project",
+      color_code: "#ff8e80",
+    },
+    {
+      title: "Passed the first round",
+      subtitle: "Hackathon",
+      logo_path: "CBRight.png",
+      alt_name: "CBright",
+      color_code: "#a89eff",
+    },
+    {
+      title: "Merit",
+      subtitle: "เข้าร่วมตักบาตรพระ 10,000 รูป",
+      logo_path: "merit.png",
+      alt_name: "merit",
+      color_code: "#ffab9e",
+    },
+    {
+      title: "Most Creative",
+      subtitle: "ได้รักรางลัยชนะเลิศการประกวดพานไหว้ครู ประเภทสร้างสรรค์",
+      logo_path: "SchoolWinner.png",
+      alt_name: "schoolwinner",
+      color_code: "#ffbb96",
+    },
+    {
+      title: "Partipated",
+      subtitle: "ได้เข้าร่วมโครงการปลูกป่าชายเลน",
+      logo_path: "forest.png",
+      alt_name: "rain forest",
+      color_code: "#ffcfb5",
+    },
+    {
+      title: "Silver Medal",
+      subtitle: "Web Design Competition EP Open House 2019",
+      logo_path: "WebDesign.png",
+      alt_name: "web design",
+      color_code: "#e4ffc2",
+    },
+    {
+      title: "Silver Medal",
+      subtitle: "Science Project EP Open House 2019",
+      logo_path: "sci-project.png",
+      alt_name: "science project",
+      color_code: "#c2efff",
     },
   ],
 };

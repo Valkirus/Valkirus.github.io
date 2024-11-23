@@ -1,17 +1,12 @@
 import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import backgroundImage from "../../assets/images/test.png"; // Import the image
 
 export default function Greeting(props) {
   const theme = props.theme;
-
-  const screenWidth = window.innerWidth; // Get the current screen width
-  const topOffset = -150; // Adjust the multiplier to control the offset (10% of width in this case)
-
 
   const backgroundStyle = {
     position: "static",

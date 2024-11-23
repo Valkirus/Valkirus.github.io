@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import { certifications } from "../../portfolio";
 import Button from "../../components/button/Button";
 import Certifications from "../../containers/certifications/Certifications";
@@ -10,12 +9,9 @@ import { Fade } from "react-reveal";
 import {
   greeting,
   projectsHeader,
-  publicationsHeader,
-  publications,
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
-import ProjectsImg from "./ProjectsImg";
 
 class Projects extends Component {
   render() {
