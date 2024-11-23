@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "285fd82e61c7a968543a411400c2582c",
+    "revision": "4346bc521a389152da7e9524ec77e16a",
     "url": "./index.html"
   },
   {
-    "revision": "699ef27b3cf510a38cdc",
+    "revision": "771c8cb2bc5de94b00a2",
     "url": "./static/css/2.fe62fa80.chunk.css"
   },
   {
-    "revision": "fb708b7e37782cd92f6e",
-    "url": "./static/css/main.418f1684.chunk.css"
+    "revision": "1ef2e2c1c1d4079cdcc3",
+    "url": "./static/css/main.d0ba73ca.chunk.css"
   },
   {
-    "revision": "699ef27b3cf510a38cdc",
-    "url": "./static/js/2.f7b508a1.chunk.js"
+    "revision": "771c8cb2bc5de94b00a2",
+    "url": "./static/js/2.68a19d4e.chunk.js"
   },
   {
-    "revision": "fb708b7e37782cd92f6e",
-    "url": "./static/js/main.cfcea217.chunk.js"
+    "revision": "1ef2e2c1c1d4079cdcc3",
+    "url": "./static/js/main.6e1321f6.chunk.js"
   },
   {
     "revision": "5824d763da9a72169070",
@@ -100,12 +100,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/YW_second.9bf5fad8.png"
   },
   {
-    "revision": "46352ebcbd6383a2d23982845599220b",
-    "url": "./static/media/arduino.46352ebc.png"
+    "revision": "23916c859bffcc085820b24e0852cbb5",
+    "url": "./static/media/about.23916c85.png"
   },
   {
-    "revision": "058eca4cbdc03a1dad9a6bb943ac7831",
-    "url": "./static/media/blogs_image.058eca4c.svg"
+    "revision": "46352ebcbd6383a2d23982845599220b",
+    "url": "./static/media/arduino.46352ebc.png"
   },
   {
     "revision": "639ce35224b144fbc2d2022e8a4cae83",
@@ -236,10 +236,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/ms1067-1424.b3858045.png"
   },
   {
-    "revision": "069938a84edd6ebf383c318e9feb5d4c",
-    "url": "./static/media/muffito_logo.069938a8.png"
-  },
-  {
     "revision": "35ad7df5235e19d91041555e69dac7f3",
     "url": "./static/media/pico.35ad7df5.png"
   },
@@ -258,10 +254,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f427331c785c501d6076b21b08d70110",
     "url": "./static/media/test.f427331c.png"
-  },
-  {
-    "revision": "0993e3246bf5146154391a0afef79b03",
-    "url": "./static/media/tiktok_logo.0993e324.png"
   },
   {
     "revision": "18f1e98ba26c9320932e935da1218ffd",

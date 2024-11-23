@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.418f1684.chunk.css",
-    "main.js": "./static/js/main.cfcea217.chunk.js",
-    "main.js.map": "./static/js/main.cfcea217.chunk.js.map",
+    "main.css": "./static/css/main.d0ba73ca.chunk.css",
+    "main.js": "./static/js/main.6e1321f6.chunk.js",
+    "main.js.map": "./static/js/main.6e1321f6.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.28b7cef4.js",
     "runtime-main.js.map": "./static/js/runtime-main.28b7cef4.js.map",
     "static/css/2.fe62fa80.chunk.css": "./static/css/2.fe62fa80.chunk.css",
-    "static/js/2.f7b508a1.chunk.js": "./static/js/2.f7b508a1.chunk.js",
-    "static/js/2.f7b508a1.chunk.js.map": "./static/js/2.f7b508a1.chunk.js.map",
+    "static/js/2.68a19d4e.chunk.js": "./static/js/2.68a19d4e.chunk.js",
+    "static/js/2.68a19d4e.chunk.js.map": "./static/js/2.68a19d4e.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.6920667d979083c01184f41628449461.js": "./precache-manifest.6920667d979083c01184f41628449461.js",
+    "precache-manifest.69c131c4abbba7ba81cb10f7b43ee3be.js": "./precache-manifest.69c131c4abbba7ba81cb10f7b43ee3be.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.fe62fa80.chunk.css.map": "./static/css/2.fe62fa80.chunk.css.map",
-    "static/css/main.418f1684.chunk.css.map": "./static/css/main.418f1684.chunk.css.map",
+    "static/css/main.d0ba73ca.chunk.css.map": "./static/css/main.d0ba73ca.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/CBRight.png": "./static/media/CBRight.aebc52eb.png",
     "static/media/FK.png": "./static/media/FK.009dc159.png",
@@ -25,8 +25,8 @@
     "static/media/WebDesign.png": "./static/media/WebDesign.b4d37321.png",
     "static/media/YRU.png": "./static/media/YRU.2054fa1e.png",
     "static/media/YW_second.png": "./static/media/YW_second.9bf5fad8.png",
+    "static/media/about.png": "./static/media/about.23916c85.png",
     "static/media/arduino.png": "./static/media/arduino.46352ebc.png",
-    "static/media/blogs_image.svg": "./static/media/blogs_image.058eca4c.svg",
     "static/media/controls_tests-hexapod.webm": "./static/media/controls_tests-hexapod.639ce352.webm",
     "static/media/all.css": "./static/media/fa-solid-900.8e4a6dcc.eot",
     "static/media/forest.png": "./static/media/forest.62bdba8b.png",
@@ -45,13 +45,11 @@
     "static/media/me2.png": "./static/media/me2.9a9039f0.png",
     "static/media/merit.png": "./static/media/merit.76463856.png",
     "static/media/ms1067-1424.png": "./static/media/ms1067-1424.b3858045.png",
-    "static/media/muffito_logo.png": "./static/media/muffito_logo.069938a8.png",
     "static/media/pico.png": "./static/media/pico.35ad7df5.png",
     "static/media/pico2.png": "./static/media/pico2.7643c42d.png",
     "static/media/sci-project.png": "./static/media/sci-project.859fafa5.png",
     "static/media/test.svg": "./static/media/test.7dc223cd.svg",
     "static/media/test.png": "./static/media/test.f427331c.png",
-    "static/media/tiktok_logo.png": "./static/media/tiktok_logo.0993e324.png",
     "static/media/transcript.png": "./static/media/transcript.18f1e98b.png",
     "static/media/tsu.png": "./static/media/tsu.2ca571c0.png",
     "static/media/yw.png": "./static/media/yw.c8d36c8a.png"
@@ -59,8 +57,8 @@
   "entrypoints": [
     "static/js/runtime-main.28b7cef4.js",
     "static/css/2.fe62fa80.chunk.css",
-    "static/js/2.f7b508a1.chunk.js",
-    "static/css/main.418f1684.chunk.css",
-    "static/js/main.cfcea217.chunk.js"
+    "static/js/2.68a19d4e.chunk.js",
+    "static/css/main.d0ba73ca.chunk.css",
+    "static/js/main.6e1321f6.chunk.js"
   ]
 }
