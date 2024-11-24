@@ -239,6 +239,13 @@ const certifications = {
       alt_name: "science project",
       color_code: "#c2efff",
     },
+    {
+      title: "Participated",
+      subtitle: "Strong Anti-Corruption Campaign",
+      logo_path: "strong.png",
+      alt_name: "Strong-anti-corruption",
+      color_code: "#ffde73",
+    },
   ],
 };
 
