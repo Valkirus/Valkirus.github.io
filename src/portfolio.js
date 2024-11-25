@@ -20,7 +20,7 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Jirakorn Sukmee",
-  logo_name: "JirakornSukmee",
+  logo_name: "Jirakorn Sukmee",
   nickname: "",
   subTitle:
     "A student from Hatyaiwittayalai school",
@@ -28,15 +28,6 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/Valkirus",
@@ -163,7 +154,7 @@ const certifications = {
   certifications: [
     {
       title: "Gold Medal",
-      subtitle: "การแข่งขันศิลปะหัตถกรรมนักเรียน",
+      subtitle: "การแข่งขันศิลปหัตถกรรมนักเรียน",
       logo_path: "goldRobotics.png",
       alt_name: "Robotics",
       color_code: "#82d1ce",
@@ -213,7 +204,7 @@ const certifications = {
     },
     {
       title: "Most Creative",
-      subtitle: "ได้รักรางลัยชนะเลิศการประกวดพานไหว้ครู ประเภทสร้างสรรค์",
+      subtitle: "ได้รับรางวัลชนะเลิศการประกวดพานไหว้ครู ประเภทสร้างสรรค์",
       logo_path: "SchoolWinner.png",
       alt_name: "schoolwinner",
       color_code: "#ffbb96",
