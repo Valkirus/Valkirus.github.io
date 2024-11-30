@@ -6,12 +6,16 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Fade } from "react-reveal";
 import Video from "../../assets/vids/controls_tests-hexapod.webm";
+import Video2 from "../../assets/vids/real_test.mp4";
 import styled from "styled-components";
 
 const images = [
   require(`../../assets/images/hexapod.png`),
   require(`../../assets/images/hexapod-pic1.png`),
   require(`../../assets/images/hexapod-pic2.png`),
+  require(`../../assets/images/hexapod-pic4.jpg`),
+  require(`../../assets/images/hexapod-pic5.jpg`),
+  require(`../../assets/images/hexapod-pic6.jpg`),
   require(`../../assets/images/FK.png`),
   require(`../../assets/images/IK.png`),
 ];
@@ -77,6 +81,9 @@ class Hexapod extends Component {
                 </p>
                 <div className="video-container">
                 <video controls src={Video} />
+                </div>
+                <div className="video-container">
+                <video controls src={Video2} />
                 </div>
               </div>
             </div>

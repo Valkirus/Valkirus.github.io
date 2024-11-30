@@ -16,7 +16,7 @@ export default function Greeting(props) {
     backgroundSize: "cover", // Ensure the image covers the container
     backgroundPosition: "center", // Center the image
     backgroundRepeat: "no-repeat", // Prevent repeating
-    filter: "blur(1px)", // Apply blur only to the background
+    //filter: "blur(1px)", // Apply blur only to the background
     zIndex: -1, // Send it behind the content
   };
 

@@ -34,6 +34,11 @@ class Contact extends Component {
                 >
                   About me
                 </h1>
+                <h3
+                  style={{ color: "#4c8c29" }}
+                >
+                  Student of Hatyaiwittayalai school, aspiring engineer
+                </h3>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
@@ -123,6 +128,17 @@ class Contact extends Component {
                     </span>
                 </div>
               </div>
+        </div>
+        <div className="basic-contact">
+        <h1
+          className="contact-heading-text"
+          style={{ color: theme.text }}
+          >
+            My Experiences
+          </h1>
+          <div className="col-lg-6">
+            <h3>Leadership : </h3> <p>TODO!!</p>
+          </div>
         </div>
         </Fade>
         <TopButton theme={this.props.theme} />

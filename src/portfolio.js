@@ -57,24 +57,11 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Arduino & C++",
-      fileName: "arduino.png",
+      title: "CAD Design",
+      fileName: "IMG_9323.png",
       skills: [
-        "Experienced with using Arduinos and writing c++ code",
-        "Wrote C++ Code for using with ESP32 Boards",
-        
-      ],
-      softwareSkills: [
-
-      ],
-    },
-
-    {
-      title: "Pico & MicroROS",
-      fileName: "pico2.png",
-      skills: [
-        "Wrote code with the microROS framework to be able to use it to communicate with a Raspberry Pi 4B.",
-        "Little bit of experience with pico-sdk and can find my way around with the documentation open",
+        "Designed parts for a hexapod (borrowing some step files from Chipo Hexapod)",
+        "Modeled 3d printed parts for school projects and household items",
         
       ],
       softwareSkills: [
@@ -84,7 +71,7 @@ const skills = {
 
     {
       title: "Raspberry Pi & ROS 2",
-      fileName: "raspberrypi4b.png",
+      fileName: "hexapod-main.jpg",
       skills: [
         "Made a robot hexapod, using the Raspberry Pi 4B",
         "Worked on a digital twin within Gazebo",
@@ -115,7 +102,7 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Tessban 6 (Hatyai Dream Kindergarten",
+      title: "Tessaban 6 (Hatyai Dream Kindergarten",
       subtitle: "ระดับชั้นประถมศึกษาตอนปลาย (Middle School)",
       logo_path: "hdk.png",
       alt_name: "Hatyai Dream Kindergarten",

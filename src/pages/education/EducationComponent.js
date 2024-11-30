@@ -19,16 +19,16 @@ class Education extends Component {
 
         </div>
         <Fade bottom duration={2000} distance="40px">
-        <div>
+        <div className="basic-education">
           <h1
             className="projects-heading-text"
             style={{ color: theme.text }}
           >
             Transcript
           </h1>
-        </div>
-        <div className="slide">
+          <div className="slide">
             <img src={Transcript} alt="transript" />
+          </div>
         </div>
         </Fade>
         <TopButton theme={this.props.theme} />
