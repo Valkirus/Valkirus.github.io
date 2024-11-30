@@ -5,6 +5,7 @@ import "./joyconModule.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Fade } from "react-reveal";
+import Video from "../../assets/vids/joycon-test.mp4";
 import styled from "styled-components";
 
 const images = [
@@ -79,6 +80,9 @@ class joycon extends Component {
 
                 The github respiratory can be founded here <a href="https://github.com/Valkirus/RC-Transmitter"> RC Transmitter</a>.
                 </p>
+                <div className="video-container">
+                <video controls src={Video} />
+                </div>
               </div>
             </div>
           </Fade>
