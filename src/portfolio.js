@@ -8,8 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Jirakorn Sukmee",
-  description:
-    "Portfolio of Jirakorn Sukmee, a student from Hatyaiwittayalai",
+  description: "Portfolio of Jirakorn Sukmee, a student from Hatyaiwittayalai",
   og: {
     title: "Jirakorn Sukmee",
     type: "website",
@@ -19,11 +18,10 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Jirakorn Sukmee",
+  title: "Jirakorn Sukme",
   logo_name: "Jirakorn Sukmee",
   nickname: "",
-  subTitle:
-    "A student from Hatyaiwittayalai school",
+  subTitle: "A student from Hatyaiwittayalai school",
   githubProfile: "https://github.com/Valkirus",
 };
 
@@ -62,11 +60,8 @@ const skills = {
       skills: [
         "Designed parts for a hexapod (borrowing some step files from Chipo Hexapod)",
         "Modeled 3d printed parts for school projects and household items",
-        
       ],
-      softwareSkills: [
-
-      ],
+      softwareSkills: [],
     },
 
     {
@@ -77,11 +72,8 @@ const skills = {
         "Worked on a digital twin within Gazebo",
         "LiDar Navigation using SLAM and Gazebo",
         "Modified the Chipo Hexapod to be ran on ROS 2",
-        
       ],
-      softwareSkills: [
-
-      ],
+      softwareSkills: [],
     },
 
     {
@@ -90,11 +82,9 @@ const skills = {
       skills: [
         "Designed a PCB based on How To Mechatronic's RC Transmitter",
         "Fully tested and accurate within KiCAD",
-        "Drawn a schematic to easily make PCBs"
+        "Drawn a schematic to easily make PCBs",
       ],
-      softwareSkills: [
-
-      ],
+      softwareSkills: [],
     },
   ],
 };
@@ -108,7 +98,7 @@ const degrees = {
       alt_name: "Hatyai Dream Kindergarten",
       duration: "2016 - 2019",
       descriptions: [
-       'I was a competitive student here. I was selected to be the competitor at almost all of the English competitions. They teachers trusted me to win '
+        "I was a competitive student here. I was selected to be the competitor at almost all of the English competitions. They teachers trusted me to win ",
       ],
       website_link: "https://www.hdk.ac.th/frontpage",
     },
@@ -119,7 +109,7 @@ const degrees = {
       alt_name: "Hatyaiwittayalai",
       duration: "2019 - 2024",
       descriptions: [
-        'I studied in the English Program, to enchance my English skills even more. I also competeted in 3 EP Open House competitions. Which I learned Web Design, HTML, CS, Basic Javascript. Also Math and Science Project, which I greatly loved. I have ever since enjoyed both of the subjects even more and even continued to study it in High School'
+        "I studied in the English Program, to enchance my English skills even more. I also competeted in 3 EP Open House competitions. Which I learned Web Design, HTML, CS, Basic Javascript. Also Math and Science Project, which I greatly loved. I have ever since enjoyed both of the subjects even more and even continued to study it in High School",
       ],
       website_link: "https://www.hatyaiwit.ac.th/frontpage",
     },
@@ -130,7 +120,7 @@ const degrees = {
       alt_name: "Hatyaiwittayalai",
       duration: "2021 - 2024",
       descriptions: [
-        "I studied in the Math and Science program, my liking for science and enigeering rose higher than every here. I did projects did peaked my interests and managed to finish them somehow."
+        "I studied in the Math and Science program, my liking for science and enigeering rose higher than every here. I did projects did peaked my interests and managed to finish them somehow.",
       ],
       website_link: "https://www.hatyaiwit.ac.th/frontpage",
     },
@@ -236,7 +226,6 @@ const certifications = {
     },
   ],
 };
-
 
 // Projects Page
 const projectsHeader = {
