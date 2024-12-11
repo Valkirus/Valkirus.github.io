@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
-import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
 //projects
 import Joycon from "../pages/Joycon/joycon";
@@ -23,13 +22,7 @@ export default class Main extends Component {
           <Route
             path="/"
             exact
-            render={(props) =>
-              settings.isSplash ? (
-                <Splash {...props} theme={this.props.theme} />
-              ) : (
-                <Home {...props} theme={this.props.theme} />
-              )
-            }
+            render={(props) => <Home {...props} theme={this.props.theme} />}
           />
           <Route
             path="/home"
@@ -65,7 +58,9 @@ export default class Main extends Component {
           />
           <Route
             path="/learningHexapod"
-            render={(props) => <LearningHexapod {...props} theme={this.props.theme} />}
+            render={(props) => (
+              <LearningHexapod {...props} theme={this.props.theme} />
+            )}
           />
           <Route
             path="/joycon"

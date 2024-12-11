@@ -105,7 +105,7 @@ const degrees = {
     {
       title: "Hatyaiwittayalai School",
       subtitle: "ระดับชั้นมัธยมศึกษาตอนต้น (Lower Secondary School)",
-      logo_path: "YW.png",
+      logo_path: "yw.png",
       alt_name: "Hatyaiwittayalai",
       duration: "2019 - 2024",
       descriptions: [
@@ -116,7 +116,7 @@ const degrees = {
     {
       title: "Hatyaiwittayalai School",
       subtitle: "ระดับชั้นมัธยมศึกษาตอนปลาย (High School)",
-      logo_path: "YW.png",
+      logo_path: "yw.png",
       alt_name: "Hatyaiwittayalai",
       duration: "2021 - 2024",
       descriptions: [
@@ -231,34 +231,7 @@ const certifications = {
 const projectsHeader = {
   title: "Hobby & Academic Projects",
   description:
-    "Heres my projects I made, some are more detailed and was used to compete in some competitions. While others are for fun. I built proejcts that spark my interests",
-  avatar_image_path: "projects_image.svg",
-};
-
-const publications = {
-  data: [
-    {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
-    },
-    {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
-    },
-    {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
-    },
-  ],
+    "Heres my projects I made, some are more detailed and was used to compete in some competitions. While others are for fun. I build projects that spark my interests",
 };
 
 // Contact Page
@@ -295,6 +268,5 @@ export {
   degrees,
   certifications,
   projectsHeader,
-  publications,
   contactPageData,
 };

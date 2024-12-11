@@ -6,7 +6,8 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Fade } from "react-reveal";
 import Video from "../../assets/vids/controls_tests-hexapod.webm";
-import Video2 from "../../assets/vids/real_test.mp4";
+import Video2 from "../../assets/vids/real_test.webm";
+import Video3 from "../../assets/vids/hexapod-show.webm";
 import styled from "styled-components";
 
 const images = [
@@ -34,25 +35,25 @@ class Hexapod extends Component {
   render() {
     const theme = this.props.theme;
     return (
-        <div className="project-main">
+      <div className="project-main">
         <Header theme={this.props.theme} />
         <div className="basic-projects">
-        <Fade bottom duration={2000} distance="40px">
+          <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-text-div">
-              <Carousel
-                showArrows={true}
-                autoPlay={true}
-                infiniteLoop={true}
-                showThumbs={false}
-                interval={3000}
-                dynamicHeight={true}
-                useKeyboardArrows={true}
+                <Carousel
+                  showArrows={true}
+                  autoPlay={true}
+                  infiniteLoop={true}
+                  showThumbs={false}
+                  interval={3000}
+                  dynamicHeight={true}
+                  useKeyboardArrows={true}
                 >
                   {images.map((src, index) => (
-                  <div key={index}>
-                    <img src={src} alt={`Slide ${index}`} />
-                  </div>
+                    <div key={index}>
+                      <img src={src} alt={`Slide ${index}`} />
+                    </div>
                   ))}
                 </Carousel>
                 <h1
@@ -75,15 +76,27 @@ class Hexapod extends Component {
                   className="projects-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                                This project was inspired by the <a href="https://www.youtube.com/watch?v=sXzpYgzsNIU"> MYP Chipo</a>. It was made as a learning project, To use skills I've gathered from making other smaller projects.
-               This project ideally combines all of those skills (CAD Design, Electronics, Circuit Design, Software) into one nice project. <br></br> The fun part about it was the software bit, I spent a lot of time
-               fine tuning the IK algorithm and gait generation to have a smooth walk cycle.
+                  This project was inspired by the{" "}
+                  <a href="https://www.youtube.com/watch?v=sXzpYgzsNIU">
+                    {" "}
+                    MYP Chipo
+                  </a>
+                  . It was made as a learning project, To use skills I've
+                  gathered from making other smaller projects. This project
+                  ideally combines all of those skills (CAD Design, Electronics,
+                  Circuit Design, Software) into one nice project. <br></br> The
+                  fun part about it was the software bit, I spent a lot of time
+                  fine tuning the IK algorithm and gait generation to have a
+                  smooth walk cycle.
                 </p>
                 <div className="video-container">
-                <video controls src={Video} />
+                  <video controls src={Video} />
                 </div>
                 <div className="video-container">
-                <video controls src={Video2} />
+                  <video controls src={Video2} />
+                </div>
+                <div className="video-container">
+                  <video controls src={Video3} />
                 </div>
               </div>
             </div>
