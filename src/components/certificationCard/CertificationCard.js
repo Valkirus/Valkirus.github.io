@@ -28,7 +28,7 @@ class CertificationCard extends Component {
               </div>
               <div className="content-details fadeIn-top">
                 <h3 className="content-title" style={{ color: theme.body }}>
-                  Certificate
+                  {certificate.alt_name}
                 </h3>
               </div>
             </a>
@@ -36,6 +36,9 @@ class CertificationCard extends Component {
           <div className="cert-body">
             <h2 className="cert-body-title" style={{ color: theme.text }}>
               {certificate.title}
+            </h2>
+            <h2 className="cert-body-title" style={{ color: theme.text }}>
+              {certificate.subtitle2}
             </h2>
             <h3
               className="cert-body-subtitle"

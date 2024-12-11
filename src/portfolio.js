@@ -115,7 +115,7 @@ const degrees = {
     {
       title: "Hatyaiwittayalai School",
       subtitle: "ระดับชั้นมัธยมศึกษาตอนต้น (Lower Secondary School)",
-      logo_path: "yw.png",
+      logo_path: "YW.png",
       alt_name: "Hatyaiwittayalai",
       duration: "2019 - 2024",
       descriptions: [
@@ -126,7 +126,7 @@ const degrees = {
     {
       title: "Hatyaiwittayalai School",
       subtitle: "ระดับชั้นมัธยมศึกษาตอนปลาย (High School)",
-      logo_path: "yw.png",
+      logo_path: "YW.png",
       alt_name: "Hatyaiwittayalai",
       duration: "2021 - 2024",
       descriptions: [
@@ -142,20 +142,23 @@ const certifications = {
     {
       title: "Gold Medal",
       subtitle: "การแข่งขันศิลปหัตถกรรมนักเรียน",
+      subtitle2: "ระดับสหวิทยาเขต",
       logo_path: "goldRobotics.png",
       alt_name: "Robotics",
       color_code: "#82d1ce",
     },
     {
       title: "Gold Medal",
-      subtitle: "Academic Project",
+      subtitle: "การแข่งขันสิ่งประดิษฐ์และนวัตกรรม",
+      subtitle2: "ระดับภูมิภาค",
       logo_path: "tsu.png",
-      alt_name: "Academic Project",
+      alt_name: "Invention",
       color_code: "#ffde73",
     },
     {
       title: "Participated",
       subtitle: "โครงงานคณิตศาสตร์",
+      subtitle2: "ระดับประเทศ",
       logo_path: "ms1067-1424.png",
       alt_name: "Mathematics project",
       color_code: "#ac68b3",
@@ -164,6 +167,7 @@ const certifications = {
     {
       title: "Silver Medal",
       subtitle: "Academic Project",
+      subtitle2: "ระดับประเทศ",
       logo_path: "YRU.png",
       alt_name: "YRU Project",
       color_code: "#ffcff2",
@@ -171,6 +175,7 @@ const certifications = {
     {
       title: "Second Place",
       subtitle: "School Innovation Project",
+      subtitle2: "ระดับโรงเรียน",
       logo_path: "YW_second.png",
       alt_name: "YRU Project",
       color_code: "#ff8e80",
@@ -178,13 +183,15 @@ const certifications = {
     {
       title: "Passed the first round",
       subtitle: "Hackathon",
+      subtitle2: "ระดับภูมิภาค",
       logo_path: "CBRight.png",
       alt_name: "CBright",
       color_code: "#a89eff",
     },
     {
-      title: "Merit",
+      title: "เข้าร่วมกิจกรรม",
       subtitle: "เข้าร่วมตักบาตรพระ 10,000 รูป",
+      subtitle2: "ระดับนานาชาติ",
       logo_path: "merit.png",
       alt_name: "merit",
       color_code: "#ffab9e",
@@ -192,6 +199,7 @@ const certifications = {
     {
       title: "Most Creative",
       subtitle: "ได้รับรางวัลชนะเลิศการประกวดพานไหว้ครู ประเภทสร้างสรรค์",
+      subtitle2: "ระดับโรงเรียน",
       logo_path: "SchoolWinner.png",
       alt_name: "schoolwinner",
       color_code: "#ffbb96",
@@ -206,6 +214,7 @@ const certifications = {
     {
       title: "Silver Medal",
       subtitle: "Web Design Competition EP Open House 2019",
+      subtitle2: "ระดับภูมิภาค",
       logo_path: "WebDesign.png",
       alt_name: "web design",
       color_code: "#e4ffc2",
@@ -213,6 +222,7 @@ const certifications = {
     {
       title: "Silver Medal",
       subtitle: "Science Project EP Open House 2019",
+      subtitle2: "ระดับภูมิภาค",
       logo_path: "sci-project.png",
       alt_name: "science project",
       color_code: "#c2efff",
