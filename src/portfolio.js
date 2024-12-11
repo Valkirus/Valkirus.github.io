@@ -18,7 +18,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Jirakorn Sukme",
+  title: "Jirakorn Sukmee",
   logo_name: "Jirakorn Sukmee",
   nickname: "",
   subTitle: "A student from Hatyaiwittayalai school",
