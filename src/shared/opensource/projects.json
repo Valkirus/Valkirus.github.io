@@ -5,7 +5,7 @@
       "name": "Hexapod for Exploration",
       "url": "/hexapod",
       "createdAt": "03-12-2024",
-      "description": "A hexapod robot, that can map terrain using SLAM.",
+      "description": "A hexapod robot, that can map terrain using SLAM. Powered by ROS2",
       "isFork": false,
       "color_code": "#dbfffb"
     },

@@ -13,23 +13,18 @@ class Education extends Component {
       <div className="education-main">
         <Header theme={this.props.theme} />
         <div className="basic-education">
-          <Fade bottom duration={2000} distance="40px">
-          </Fade>
+          <Fade bottom duration={2000} distance="40px"></Fade>
           <Educations theme={this.props.theme} />
-
         </div>
         <Fade bottom duration={2000} distance="40px">
-        <div className="basic-education">
-          <h1
-            className="projects-heading-text"
-            style={{ color: theme.text }}
-          >
-            Transcript
-          </h1>
-          <div className="slide">
-            <img src={Transcript} alt="transript" />
+          <div className="basic-transcript">
+            <h1 className="projects-heading-text" style={{ color: theme.text }}>
+              Transcript
+            </h1>
+            <div className="slide">
+              <img src={Transcript} alt="transript" />
+            </div>
           </div>
-        </div>
         </Fade>
         <TopButton theme={this.props.theme} />
       </div>
