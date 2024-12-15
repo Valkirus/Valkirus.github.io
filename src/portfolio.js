@@ -49,6 +49,12 @@ const socialMediaLinks = [
     link: "https://www.instagram.com/gun.jirakorn/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=instagram
+  }, //https://discord.gg/pNXExTsFps
+  {
+    name: "Discord",
+    link: "https://discord.gg/pNXExTsFps",
+    fontAwesomeIcon: "fa-discord", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 

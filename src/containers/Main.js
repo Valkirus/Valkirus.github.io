@@ -6,6 +6,7 @@ import Education from "../pages/education/EducationComponent";
 import Joycon from "../pages/Joycon/joycon";
 import Hexapod from "../pages/Hexapod/Hexapod";
 import LearningHexapod from "../pages/LearningHexapod/learningHexapod";
+import MorphingHexapod from "../pages/MorphingHexapod/MorphingHexapod";
 
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
@@ -49,6 +50,12 @@ export default class Main extends Component {
           <Route
             path="/hexapod"
             render={(props) => <Hexapod {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/morphing-robot"
+            render={(props) => (
+              <MorphingHexapod {...props} theme={this.props.theme} />
+            )}
           />
           <Route
             path="/learningHexapod"
