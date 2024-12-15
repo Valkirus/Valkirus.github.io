@@ -246,7 +246,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "me2.png",
     description:
-      "I have Instagram, Facebook and Line, if you need to contact me. Choose Line, It uses the same number as my phone number. I read those quite often compared to the rest",
+      "If you're avaliable, come join my discord. If you don't have discord, I have Instagram, Facebook and Line, if you need to contact me. Choose Line or email, Line uses the same number as my phone number. I read these quite often compared to the rest. If you just want to chat, join the discord.",
   },
   addressSection: {
     title: "Address",
