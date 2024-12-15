@@ -2,7 +2,7 @@
   "data": [
     {
       "logo_path": "morph1.png",
-      "name": "",
+      "name": "Morphing Hexapod",
       "url": "/morphing-robot",
       "createdAt": "014-12-2024",
       "description": "Morphing Hexapod, still being worked on by me. It will be my forth year project.",
@@ -29,7 +29,7 @@
     },
     {
       "logo_path": "LearningHexapod.png",
-      "name": "",
+      "name": "Learning Hexapod",
       "url": "/learninghexapod",
       "createdAt": "01-11-2024",
       "description": "Learning Hexapod. Essentially it's a toy to write and experiment with gait generation and learn",

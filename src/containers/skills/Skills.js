@@ -1,6 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import SkillSection from "./SkillSection";
+import AboutSection from "./AboutSection";
 import { Fade } from "react-reveal";
 import Button from "../../components/button/Button";
 
@@ -17,12 +18,20 @@ export default function Skills(props) {
       </div>
       <SkillSection theme={theme} />
       <Button
-          text={"View all my projects"}
-          className="project-button"
-          href={"/projects"}
-          rel="noopener noreferrer"
-          theme={theme}
-          />
+        text={"View all my projects"}
+        className="project-button"
+        href={"/projects"}
+        rel="noopener noreferrer"
+        theme={theme}
+      />
+      <div className="skills-header-div">
+        <Fade bottom duration={2000} distance="20px">
+          <h1 className="about-header" style={{ color: theme.text }}>
+            Get to know me
+          </h1>
+        </Fade>
+      </div>
+      <AboutSection theme={theme} />
     </div>
   );
 }

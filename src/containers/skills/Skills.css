@@ -10,6 +10,14 @@
   text-align: center;
 }
 
+.about-header {
+  margin-top: 10%;
+  font-size: 60px;
+  line-height: normal;
+  font-family: "Google Sans Regular";
+  text-align: center;
+}
+
 .skills-text {
   font-size: 20px;
 }

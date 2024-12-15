@@ -67,7 +67,6 @@ const skills = {
         "Designed parts for a hexapod (borrowing some step files from Chipo Hexapod)",
         "Modeled 3d printed parts for school projects and household items",
       ],
-      softwareSkills: [],
     },
 
     {
@@ -79,7 +78,6 @@ const skills = {
         "LiDar Navigation using SLAM and Gazebo",
         "Modified the Chipo Hexapod to be ran on ROS 2",
       ],
-      softwareSkills: [],
     },
 
     {
@@ -90,7 +88,21 @@ const skills = {
         "Fully tested and accurate within KiCAD",
         "Drawn a schematic to easily make PCBs",
       ],
-      softwareSkills: [],
+    },
+  ],
+};
+
+const about = {
+  data: [
+    {
+      title: "About me",
+      fileName: "about.png",
+      about: [
+        "Hi! My name is Jirakorn Sukmee. I like building robots.",
+        "I'm interested in engineering. I fell in love with making robots, and probably have learnt a few things. I think...",
+        "I can program in C++, C, Python, and JavaScript if I have to. I'm not that fluent, and need to use the documentation to get things done",
+        "My hobbies are making fun robots. I hope to make a career out of it someday.",
+      ],
     },
   ],
 };
@@ -271,6 +283,7 @@ export {
   greeting,
   socialMediaLinks,
   skills,
+  about,
   degrees,
   certifications,
   projectsHeader,
