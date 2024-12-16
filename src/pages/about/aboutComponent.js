@@ -4,13 +4,9 @@ import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { Fade } from "react-reveal";
+import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import "./aboutComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
-
-const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
-const addressSection = contactPageData.addressSection;
-const phoneSection = contactPageData.phoneSection;
+import { experience } from "../../portfolio.js";
 
 class Contact extends Component {
   render() {
@@ -176,20 +172,30 @@ class Contact extends Component {
               </div>
             </div>
           </div>
-          <div className="basic-contact">
-            <h1 className="contact-heading-text" style={{ color: theme.text }}>
-              My Experiences
-            </h1>
-            <div className="col-lg-6">
-              <h3>Leadership : </h3>{" "}
-              <p>
-                Participated in STRONG campaign, Anti-Corruption group as School
-                representatives.
+          <div className="experience-heading-div">
+            <div className="experience-heading-text-div">
+              <h1
+                className="experience-heading-text"
+                style={{ color: theme.text }}
+              >
+                {experience.title}
+              </h1>
+              <h3
+                className="experience-heading-sub-text"
+                style={{ color: theme.text }}
+              >
+                {experience["subtitle"]}
+              </h3>
+              <p
+                className="experience-header-detail-text subTitle"
+                style={{ color: theme.secondaryText }}
+              >
+                {experience["description"]}
               </p>
-              <p>Participated in school's student council as candidates.</p>
             </div>
           </div>
         </Fade>
+        <ExperienceAccordion sections={experience["sections"]} theme={theme} />
         <TopButton theme={this.props.theme} />
       </div>
     );

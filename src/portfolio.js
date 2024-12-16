@@ -252,6 +252,91 @@ const projectsHeader = {
     "Heres my projects I made, some are more detailed and was used to compete in some competitions. While others are for fun. I build projects that spark my interests",
 };
 
+const experience = {
+  title: "Experience",
+  subtitle: "Leadership, Work and Internship",
+  description: "",
+  header_image_path: "experience.svg",
+  sections: [
+    {
+      title: "Leadership",
+      experiences: [
+        {
+          title: "Student Council Candidate",
+          company: "YORWOR",
+          company_url: "https://www.instagram.com/cordelia.official_",
+          logo_path: "Cordelia.webp",
+          duration: "November 2022 - Feburary 2023",
+          location: "Hatyai, Songkhla, Thailand",
+          description:
+            "I was a member of the 35th student council candidate named 'Cordelia'. It was a pity that we didn't win but I still made a lot friends and have a gain experience with leadership arranging school activities for a short period of time.",
+          color: "#111717",
+        },
+        {
+          title: "STRONG Organization Participant",
+          company: "STRONG",
+          company_url: "https://www.nacc.go.th/",
+          logo_path: "strong-logo.png",
+          duration: "March 2023 - March 2023",
+          location: "Sadao, Songkhla, Thailand",
+          description:
+            "I participated during it's campaign in Sadao. I was one of the represenatitves of my school to go take part in it. I learnt and changed my mind set about corruption in Thailand, it changed my view of Thailand and it's politics",
+          color: "#111717",
+        },
+      ],
+    },
+    /*{
+      title: "Work",
+      work: false,
+      experiences: [
+        {
+          title: "Machine Learning Engineer",
+          company: "TikTok Inc.",
+          company_url: "https://www.tiktok.com/en/",
+          logo_path: "morph1.png",
+          duration: "June 2023 - Present",
+          location: "San Jose, CA, USA",
+          description:
+            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+          color: "#000000",
+        },
+      ],
+    },
+    {
+      title: "Internships",
+      experiences: [
+        {
+          title: "Machine Learning Intern",
+          company: "TikTok Inc.",
+          company_url: "https://www.tiktok.com/en/",
+          logo_path: "morph1.png",
+          duration: "May 2022 - Aug 2022",
+          location: "San Francisco, USA",
+          description:
+            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+          color: "#000000",
+        }
+      ],
+    },
+    {
+      title: "Volunteerships",
+      experiences: [
+        {
+          title: "Developer Program Member",
+          company: "Github",
+          company_url: "https://github.com/",
+          logo_path: "morph1.png",
+          duration: "July 2019 - PRESENT",
+          location: "Work From Home",
+          description:
+            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+          color: "#181717",
+        },
+      ],
+    },*/
+  ],
+};
+
 // Contact Page
 const contactPageData = {
   contactSection: {
@@ -284,6 +369,7 @@ export {
   socialMediaLinks,
   skills,
   about,
+  experience,
   degrees,
   certifications,
   projectsHeader,
