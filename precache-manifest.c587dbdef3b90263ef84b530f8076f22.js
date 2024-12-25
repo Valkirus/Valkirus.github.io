@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4b092a3f7987518e080065df791eed7",
+    "revision": "e4eb6c15cf796afe1df6477b88576ea7",
     "url": "./index.html"
   },
   {
-    "revision": "72acc7ae4f7df051a0eb",
+    "revision": "f7818f85f838b312f375",
     "url": "./static/css/2.fe62fa80.chunk.css"
   },
   {
-    "revision": "b8ab790518b14cb06889",
-    "url": "./static/css/main.dd020734.chunk.css"
+    "revision": "db4341c304aa6a80ae2c",
+    "url": "./static/css/main.3f072481.chunk.css"
   },
   {
-    "revision": "72acc7ae4f7df051a0eb",
-    "url": "./static/js/2.6fb0b495.chunk.js"
+    "revision": "f7818f85f838b312f375",
+    "url": "./static/js/2.5d0043c8.chunk.js"
   },
   {
-    "revision": "b8ab790518b14cb06889",
-    "url": "./static/js/main.caee862d.chunk.js"
+    "revision": "db4341c304aa6a80ae2c",
+    "url": "./static/js/main.14613be2.chunk.js"
   },
   {
     "revision": "5824d763da9a72169070",
     "url": "./static/js/runtime-main.28b7cef4.js"
+  },
+  {
+    "revision": "2099e0ce6a9e023879d52a68fc706679",
+    "url": "./static/media/3D-PCB.2099e0ce.png"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -82,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "./static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "94eff332133a5d8eb281551b76e47a4f",
+    "url": "./static/media/PCB-Hexapod.94eff332.png"
   },
   {
     "revision": "b2cd12560841ae18091ae7824dc70a36",
@@ -250,6 +258,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dd58f88d1365c4a980f32425c6904a73",
     "url": "./static/media/learningHexapod-pic1.dd58f88d.png"
+  },
+  {
+    "revision": "98c5eb2c82db1162553a2d7fb03b1f38",
+    "url": "./static/media/logo-PCB-Hexapod.98c5eb2c.png"
   },
   {
     "revision": "2b959ac1085f2b5bb26470cae3d69ebd",
