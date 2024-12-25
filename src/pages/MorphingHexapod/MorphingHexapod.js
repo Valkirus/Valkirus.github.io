@@ -6,6 +6,8 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Fade } from "react-reveal";
 import styled from "styled-components";
+import PCBPic from "../../assets/images/3D-PCB.png";
+import PCBSchematic from "../../assets/images/PCB-Hexapod.png";
 
 const images = [
   require(`../../assets/images/morph1.png`),
@@ -50,32 +52,50 @@ class MorphingHexapod extends Component {
                     ))}
                   </Carousel>
                 </div>
-                <h1
-                  className="projects-heading-text"
-                  style={{ color: theme.text }}
-                >
-                  Morphing Hexapod
-                </h1>
-                <a
-                  href={"https://github.com/Valkirus/Morphing-Robot"}
-                  className={`icon-button`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <IconWrapper>
-                    <i className={`fab ${"fa-github"}`}></i>
-                  </IconWrapper>
-                </a>
-                <p
-                  className="projects-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  This is a WIP project. I plan to adapt this robot for my forth
-                  year projects. It's still currently being worked on. You can
-                  see my progress on the github page linked above. Feel free to
-                  reach out in my{" "}
-                  <a href="https://discord.gg/pNXExTsFps">Discord Server</a>
-                </p>
+                <div>
+                  <h1
+                    className="projects-heading-text"
+                    style={{ color: theme.text }}
+                  >
+                    Morphing Hexapod
+                  </h1>
+                  <a
+                    href={"https://github.com/Valkirus/Morphing-Robot"}
+                    className={`icon-button`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <IconWrapper>
+                      <i className={`fab ${"fa-github"}`}></i>
+                    </IconWrapper>
+                  </a>
+                  <p
+                    className="projects-header-detail-text subTitle"
+                    style={{ color: theme.secondaryText }}
+                  >
+                    This is a WIP project. I plan to adapt this robot for my
+                    forth year projects. It's still currently being worked on.
+                    You can see my progress on the github page linked above.
+                    Feel free to reach out in my{" "}
+                    <a href="https://discord.gg/pNXExTsFps">Discord Server</a>
+                  </p>
+                  <br></br>
+                  <h2 style={{ color: theme.text }}>Morphing Hexapod's PCB</h2>
+                  <p
+                    className="projects-header-detail-text subTitle"
+                    style={{ color: theme.secondaryText }}
+                  >
+                    This PCB is designed to be used with a Teensy 4.1, it can
+                    take up to 20A of raw battery power. I designed it in KiCad,
+                    it has a built in IMU, 13x Serial Servo Ports compatible
+                    with HiWonder servos (HTS-35H and HTD-45H).
+                  </p>
+                  <div className="project-image-div">
+                    <img src={PCBPic} alt="PCB Picture"></img>
+                    <img src={PCBSchematic} alt="PCB Picture"></img>
+                  </div>
+                  <br />
+                </div>
               </div>
             </div>
           </Fade>

@@ -5,9 +5,16 @@
 }
 
 .project-image-div > * {
-  max-width: 100vh;
-  height: auto;
-  position: static;
+  width: 100%; /* Make the image fill the container's width */
+  max-width: 100%; /* Prevent the image from exceeding its original size */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 100vh; /* Limit height to the viewport height if needed */
+  display: block; /* Remove inline spacing below the image (useful in some layouts) */
+  object-fit: contain; /* Ensures the image scales nicely within its container */
+}
+
+.project-text-div2 > * {
+  margin-bottom: 5%;
 }
 
 .stuff {

@@ -1,10 +1,19 @@
 {
   "data": [
     {
+      "logo_path": "logo-PCB-Hexapod.png",
+      "name": "Morphing Hexapod's PCB",
+      "url": "/morphing-robot",
+      "createdAt": "25-12-2024",
+      "description": "I seperated the PCB, because I felt like this was a new project entirely.",
+      "isFork": false,
+      "color_code": "#aede92"
+    },
+    {
       "logo_path": "morph1.png",
       "name": "Morphing Hexapod",
       "url": "/morphing-robot",
-      "createdAt": "014-12-2024",
+      "createdAt": "14-12-2024",
       "description": "Morphing Hexapod, still being worked on by me. It will be my forth year project.",
       "isFork": false,
       "color_code": "#c2c2c2"
