@@ -6,13 +6,13 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Fade } from "react-reveal";
 import styled from "styled-components";
-import PCBPic from "../../assets/images/3D-PCB.png";
-import PCBSchematic from "../../assets/images/PCB-Hexapod.png";
+import PCBPic from "../../assets/images/3D-CroppedPCB.png";
+import PCBSchematic from "../../assets/images/PCB-HEXAPOD.png";
 
 const images = [
-  require(`../../assets/images/morph1.png`),
-  require(`../../assets/images/morph2.png`),
-  require(`../../assets/images/morph3.png`),
+  require(`../../assets/images/solidworks-5.png`),
+  require(`../../assets/images/solidworks-6.png`),
+  require(`../../assets/images/solidworks-7.png`),
 ];
 
 const IconWrapper = styled.span`

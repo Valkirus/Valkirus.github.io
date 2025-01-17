@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "logo_path": "logo-PCB-Hexapod.png",
+      "logo_path": "3D-PCB.png",
       "name": "Morphing Hexapod's PCB",
       "url": "/morphing-robot",
       "createdAt": "25-12-2024",
@@ -10,7 +10,7 @@
       "color_code": "#aede92"
     },
     {
-      "logo_path": "morph1.png",
+      "logo_path": "solidworks-5.png",
       "name": "Morphing Hexapod",
       "url": "/morphing-robot",
       "createdAt": "14-12-2024",
