@@ -6,11 +6,8 @@ import Button from "../../components/button/Button";
 import Certifications from "../../containers/certifications/Certifications";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-import {
-  greeting,
-  projectsHeader,
-} from "../../portfolio.js";
-import ProjectsData from "../../shared/opensource/projects.json";
+import { greeting, projectsHeader } from "../../portfolio.js";
+import ProjectsData from "../../projects.json";
 import "./Projects.css";
 
 class Projects extends Component {
@@ -52,10 +49,9 @@ class Projects extends Component {
           theme={theme}
         />
 
-
-          {certifications.certifications.length > 0 ? (
-            <Certifications theme={this.props.theme} />
-          ) : null}
+        {certifications.certifications.length > 0 ? (
+          <Certifications theme={this.props.theme} />
+        ) : null}
 
         <TopButton theme={this.props.theme} />
       </div>
