@@ -9,7 +9,7 @@ import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
-//projects test
+//projects test2
 import Joycon from "../pages/Joycon/joycon";
 import Hexapod from "../pages/Hexapod/Hexapod";
 import LearningHexapod from "../pages/LearningHexapod/learningHexapod";
