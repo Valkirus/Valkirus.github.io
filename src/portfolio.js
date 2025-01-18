@@ -363,15 +363,15 @@ const contactPageData = {
 };
 
 export {
-  settings,
-  seo,
-  greeting,
-  socialMediaLinks,
-  skills,
   about,
-  experience,
-  degrees,
   certifications,
-  projectsHeader,
   contactPageData,
+  degrees,
+  experience,
+  greeting,
+  projectsHeader,
+  seo,
+  settings,
+  skills,
+  socialMediaLinks,
 };
