@@ -9,6 +9,7 @@ import LearningHexapod from "../pages/LearningHexapod/learningHexapod";
 import MorphingHexapod from "../pages/MorphingHexapod/MorphingHexapod";
 
 //some new stuff
+//testing some more new stuff
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import About from "../pages/about/aboutComponent";
