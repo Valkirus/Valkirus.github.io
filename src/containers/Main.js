@@ -8,7 +8,7 @@ import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
-//projects test 32 tstes
+//projects
 import Joycon from "../pages/Joycon/joycon";
 import Hexapod from "../pages/Hexapod/Hexapod";
 import LearningHexapod from "../pages/LearningHexapod/learningHexapod";
