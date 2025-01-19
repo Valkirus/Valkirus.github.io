@@ -138,7 +138,7 @@ const degrees = {
       alt_name: "Hatyaiwittayalai",
       duration: "2021 - 2024",
       descriptions: [
-        "I studied in the Math and Science program, my liking for science and enigeering rose higher than every here. I did projects did peaked my interests and managed to finish them somehow.",
+        "I studied in the Math and Science program, my liking for science and engieering rose higher than every here. I did projects did peaked my interests and managed to finish them somehow.",
       ],
       website_link: "https://www.hatyaiwit.ac.th/frontpage",
     },
