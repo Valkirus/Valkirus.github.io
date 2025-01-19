@@ -27,7 +27,10 @@ class Contact extends Component {
                 >
                   About me
                 </h1>
-                <h3 style={{ color: "#4c8c29" }}>
+                <h3
+                  className="contact-heading-minitext"
+                  style={{ color: "#4c8c29" }}
+                >
                   Student of Hatyaiwittayalai school, aspiring engineer
                 </h3>
                 <p
