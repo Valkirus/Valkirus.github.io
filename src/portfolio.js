@@ -1,5 +1,3 @@
-/* Change this file to get your personal Porfolio */
-
 // Website related settings
 const settings = {
   isSplash: false, // Change this to false if you don't want Splash screen.
@@ -49,11 +47,11 @@ const socialMediaLinks = [
     link: "https://www.instagram.com/gun.jirakorn/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=instagram
-  }, //https://discord.gg/pNXExTsFps
+  },
   {
     name: "Discord",
     link: "https://discord.gg/pNXExTsFps",
-    fontAwesomeIcon: "fa-discord", // Reference https://fontawesome.com/icons/instagram?style=brands
+    fontAwesomeIcon: "fa-discord", // Reference https://fontawesome.com/icons/discord?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=instagram
   },
 ];
